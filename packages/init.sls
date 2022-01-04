@@ -1,7 +1,8 @@
-require:
-  - example.htop
+include:
+  - example.packages.htop
 
 example-packages:
   test.nop:
+    - name: example-packages
     - require:
-      - sls: example.htop
+      - sls: example.packages.htop
