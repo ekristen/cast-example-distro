@@ -4,7 +4,7 @@ release:
     repo: example-distro-saltstack
 manifest:
   version: 2
-  base: example
+  name: example
   modes:
     - name: server
       state: example.server
