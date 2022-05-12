@@ -1,7 +1,7 @@
 release:
   github:
     owner: ekristen
-    repo: example-distro-saltstack
+    repo: cast-example-distro
 manifest:
   version: 2
   name: example
